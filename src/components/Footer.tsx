@@ -10,7 +10,7 @@ const Footer = () => {
             <img 
               src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
               alt="FixMaster Logo" 
-              className="h-12 w-auto mb-4 brightness-0 invert"
+              className="h-16 w-auto mb-4 brightness-0 invert"
             />
             <p className="text-sm opacity-80">
               Профессиональный ремонт гаджетов и настройка умного дома с 2015 года.

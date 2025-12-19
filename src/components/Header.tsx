@@ -16,12 +16,12 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           <Link to="/" className="flex items-center group">
             <img 
               src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
               alt="FixMaster Logo" 
-              className="h-14 w-auto transition-transform group-hover:scale-105"
+              className="h-20 w-auto transition-transform group-hover:scale-105"
             />
           </Link>
 
