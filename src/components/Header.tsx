@@ -21,7 +21,7 @@ const Header = () => {
             <img 
               src="https://cdn.poehali.dev/files/logoza_ru (2)-no-bg-preview (carve.photos).png" 
               alt="FixMaster Logo" 
-              className="h-40 w-auto transition-transform group-hover:scale-70 px-0 rounded-0 py-0 my-0 mx-0 object-none"
+              className="h-100 w-auto transition-transform group-hover:scale-120 px-0 py-0 my-0 mx-0 object-contain rounded-none"
             />
           </Link>
 
