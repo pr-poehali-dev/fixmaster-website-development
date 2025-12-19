@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-24">
           <Link to="/" className="flex items-center group">
             <img 
-              src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
+              src="https://cdn.poehali.dev/files/logoza_ru (2)-no-bg-preview (carve.photos).png" 
               alt="FixMaster Logo" 
               className="h-20 w-auto transition-transform group-hover:scale-105"
             />
