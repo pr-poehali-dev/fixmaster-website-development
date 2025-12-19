@@ -9,9 +9,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                src="https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/017c7d04-0236-4722-b760-4a80c094bdf2.jpg" 
                 alt="FixMaster Logo" 
-                className="h-10 w-auto"
+                className="h-10 w-10 object-cover rounded-lg"
               />
               <div>
                 <h3 className="text-xl font-heading font-bold">FixMaster</h3>
