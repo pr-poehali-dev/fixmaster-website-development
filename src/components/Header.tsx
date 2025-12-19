@@ -1,0 +1,59 @@
+import { Link, useLocation } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import Icon from '@/components/ui/icon';
+
+const Header = () => {
+  const location = useLocation();
+
+  const navItems = [
+    { path: '/', label: 'Главная' },
+    { path: '/services', label: 'Услуги' },
+    { path: '/team', label: 'Команда' },
+    { path: '/contacts', label: 'Контакты' },
+    { path: '/feedback', label: 'Обратная связь' }
+  ];
+
+  return (
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-20">
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center transition-transform group-hover:scale-110">
+              <Icon name="Wrench" className="text-white" size={24} />
+            </div>
+            <div>
+              <h1 className="text-2xl font-heading font-black text-primary">FixMaster</h1>
+              <p className="text-xs text-muted-foreground">Ремонт с умом!</p>
+            </div>
+          </Link>
+
+          <nav className="hidden md:flex items-center gap-1">
+            {navItems.map((item) => (
+              <Link key={item.path} to={item.path}>
+                <Button
+                  variant={location.pathname === item.path ? 'default' : 'ghost'}
+                  className="font-semibold"
+                >
+                  {item.label}
+                </Button>
+              </Link>
+            ))}
+          </nav>
+
+          <Link to="/feedback" className="hidden md:block">
+            <Button className="gradient-secondary text-foreground font-bold hover:shadow-lg transition-all">
+              Оставить заявку
+              <Icon name="ArrowRight" size={18} className="ml-2" />
+            </Button>
+          </Link>
+
+          <button className="md:hidden">
+            <Icon name="Menu" size={28} className="text-primary" />
+          </button>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
