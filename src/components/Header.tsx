@@ -17,16 +17,12 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to="/" className="flex items-center group">
             <img 
-              src="https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/017c7d04-0236-4722-b760-4a80c094bdf2.jpg" 
+              src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
               alt="FixMaster Logo" 
-              className="h-12 w-12 object-cover rounded-xl transition-transform group-hover:scale-110"
+              className="h-14 w-auto transition-transform group-hover:scale-105"
             />
-            <div>
-              <h1 className="text-2xl font-heading font-black text-primary">FixMaster</h1>
-              <p className="text-xs text-muted-foreground">Ремонт с умом!</p>
-            </div>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">

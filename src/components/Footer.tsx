@@ -7,17 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img 
-                src="https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/017c7d04-0236-4722-b760-4a80c094bdf2.jpg" 
-                alt="FixMaster Logo" 
-                className="h-10 w-10 object-cover rounded-lg"
-              />
-              <div>
-                <h3 className="text-xl font-heading font-bold">FixMaster</h3>
-                <p className="text-xs opacity-90">Ремонт с умом!</p>
-              </div>
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
+              alt="FixMaster Logo" 
+              className="h-12 w-auto mb-4 brightness-0 invert"
+            />
             <p className="text-sm opacity-80">
               Профессиональный ремонт гаджетов и настройка умного дома с 2015 года.
             </p>
