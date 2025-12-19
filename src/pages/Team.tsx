@@ -7,7 +7,7 @@ const Team = () => {
     {
       name: 'Алексей Петров',
       role: 'Главный инженер',
-      image: 'https://placehold.co/400x500/3a86ff/ffffff?text=А.Петров',
+      image: 'https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/a0b64ba9-7052-4cab-98d8-db8d1df19c73.jpg',
       experience: '8 лет',
       specialization: 'Ремонт материнских плат',
       skills: ['Микропайка', 'Диагностика', 'iPhone/Samsung'],
@@ -16,7 +16,7 @@ const Team = () => {
     {
       name: 'Мария Сидорова',
       role: 'Специалист по умному дому',
-      image: 'https://placehold.co/400x500/ffbe0b/333333?text=М.Сидорова',
+      image: 'https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/9eac555c-7df6-4a68-b7b8-273c0064ce3d.jpg',
       experience: '4 года',
       specialization: 'Настройка умного дома',
       skills: ['Apple HomeKit', 'Яндекс Алиса', 'Xiaomi Smart Home'],
@@ -25,11 +25,38 @@ const Team = () => {
     {
       name: 'Дмитрий Иванов',
       role: 'Консультант по аксессуарам',
-      image: 'https://placehold.co/400x500/3a86ff/ffffff?text=Д.Иванов',
+      image: 'https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/f2c31adb-debc-45d1-9281-c2107f3af843.jpg',
       experience: '3 года',
       specialization: 'Подбор аксессуаров',
       skills: ['Защитные покрытия', 'Аудиотехника', 'Power Bank'],
       description: 'Поможет подобрать идеальные аксессуары для вашего устройства. Эксперт по защитным покрытиям.'
+    },
+    {
+      name: 'Елена Волкова',
+      role: 'Мастер по ремонту ноутбуков',
+      image: 'https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/55741de8-7a6c-4517-b52f-3942a486c8cf.jpg',
+      experience: '6 лет',
+      specialization: 'Ремонт ноутбуков',
+      skills: ['Замена матриц', 'Чистка', 'Upgrade железа'],
+      description: 'Специалист по диагностике и ремонту ноутбуков всех брендов. Выполняет сложные работы по замене компонентов.'
+    },
+    {
+      name: 'Сергей Новиков',
+      role: 'Специалист по восстановлению данных',
+      image: 'https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/57971628-e2e8-453b-a1c3-aadb5fee886b.jpg',
+      experience: '10 лет',
+      specialization: 'Восстановление данных',
+      skills: ['HDD/SSD Recovery', 'RAID системы', 'Криминалистика'],
+      description: 'Опытный специалист по восстановлению данных с любых носителей. Работает с самыми сложными случаями.'
+    },
+    {
+      name: 'Антон Смирнов',
+      role: 'Менеджер по работе с клиентами',
+      image: 'https://cdn.poehali.dev/projects/3ca8d534-60e2-4afe-ada5-14c3346b9704/files/6515271e-4d89-4032-9a6b-12503fb65dba.jpg',
+      experience: '5 лет',
+      specialization: 'Техническая поддержка',
+      skills: ['Консультации', 'Диагностика проблем', 'Обучение'],
+      description: 'Поможет разобраться с любой технической проблемой и подберет оптимальное решение для вашей ситуации.'
     }
   ];
 
