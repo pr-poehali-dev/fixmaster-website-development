@@ -18,9 +18,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center transition-transform group-hover:scale-110">
-              <Icon name="Wrench" className="text-white" size={24} />
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/logoza.ru.png" 
+              alt="FixMaster Logo" 
+              className="h-12 w-auto transition-transform group-hover:scale-110"
+            />
             <div>
               <h1 className="text-2xl font-heading font-black text-primary">FixMaster</h1>
               <p className="text-xs text-muted-foreground">Ремонт с умом!</p>

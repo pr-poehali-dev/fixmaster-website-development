@@ -8,9 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
-                <Icon name="Wrench" className="text-foreground" size={20} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                alt="FixMaster Logo" 
+                className="h-10 w-auto"
+              />
               <div>
                 <h3 className="text-xl font-heading font-bold">FixMaster</h3>
                 <p className="text-xs opacity-90">Ремонт с умом!</p>
